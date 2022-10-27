@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping(path = "/api")
     public String api() {
-        return "success-abc";
+        return "success";
     }
 }
